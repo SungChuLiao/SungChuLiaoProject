@@ -1,0 +1,29 @@
+Control:
+
+When you are in MainMenu:
+
+"Up Arrow" and "Down Arrow" to choose option
+"Enter" key to access it
+
+Arcade mode = player vs NPC
+Versus mode = player vs player
+Quit = Exit game
+
+/////////////////////////////////////////
+When you are in Arcade mode
+
+"W", "S" key to control your pong character
+"Escape" key to back to menu
+
+When games is end, you still can press "Escape" key to back to menu
+ or press "Space" to back to menu
+
+//////////////////////////////////////////
+When you are in Versus mode
+
+"W", "S" key to control your pong character (player 1)
+"Up Arrow" and "Down Arrow" key to control your pong character (player 2)
+"Escape" key to back to menu
+
+When games is end, you still can press "Escape" key to back to menu
+ or press "Space" to back to menu
