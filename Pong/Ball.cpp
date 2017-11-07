@@ -34,22 +34,22 @@ void Ball::Update(sf::RenderWindow* window)
 			{
 				if (this->player1->velocity.y > 0)
 				{
-					this->velocity.y += this->velocity.y * 0.15f;
+					this->velocity.y += this->velocity.y * 0.2f;
 				}
 				else if (this->player1->velocity.y < 0)
 				{
-					this->velocity.y += this->velocity.y * -0.15f;
+					this->velocity.y += this->velocity.y * -0.2f;
 				}
 			}
 			else if (this->velocity.y < 0)
 			{
 				if (this->player1->velocity.y > 0)
 				{
-					this->velocity.y += this->velocity.y * -0.15f;
+					this->velocity.y += this->velocity.y * -0.2f;
 				}
 				else if (this->player1->velocity.y < 0)
 				{
-					this->velocity.y += this->velocity.y * 0.15f;
+					this->velocity.y += this->velocity.y * 0.2f;
 				}
 			}
 		}
@@ -77,22 +77,22 @@ void Ball::Update(sf::RenderWindow* window)
 			{
 				if (this->player2->velocity.y > 0)
 				{
-					this->velocity.y += this->velocity.y * 0.15f;
+					this->velocity.y += this->velocity.y * 0.2f;
 				}
 				else if (this->player2->velocity.y < 0)
 				{
-					this->velocity.y += this->velocity.y * -0.15f;
+					this->velocity.y += this->velocity.y * -0.2f;
 				}
 			}
 			else if (this->velocity.y < 0)
 			{
 				if (this->player2->velocity.y > 0)
 				{
-					this->velocity.y += this->velocity.y * -0.15f;
+					this->velocity.y += this->velocity.y * -0.2f;
 				}
 				else if (this->player2->velocity.y < 0)
 				{
-					this->velocity.y += this->velocity.y * 0.15f;
+					this->velocity.y += this->velocity.y * 0.2f;
 				}
 			}
 		}

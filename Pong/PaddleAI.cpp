@@ -18,11 +18,11 @@ void PaddleAI::Update()
 {
 	if (ballObject->velocity.y > 0)
 	{
-		this->velocity.y = 0.7f;
+		this->velocity.y = 0.85f;
 	}
 	if (ballObject->velocity.y < 0)
 	{
-		this->velocity.y = -0.7f;
+		this->velocity.y = -0.85f;
 	}
 
 	Object::Update();
