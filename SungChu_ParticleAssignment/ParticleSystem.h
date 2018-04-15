@@ -44,9 +44,6 @@ public:
 
 	void SetEasingMode(easingMode easingMode);
 
-	//easingMode GetEasingMode();
-
-
 	//void CanSpeedUp(bool canSpeedup, float speedChangeValue);
 private:
 	float actTimer = 0;
